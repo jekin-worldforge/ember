@@ -25,9 +25,14 @@
 				<Property Name='UnifiedPosition' Value='{{0.0,5},{0,42}}'/>
 				<Property Name='UnifiedSize' Value='{{0,50},{0,20}}'/>
 			</Window>
+                        <Window Type='EmberLook/Button' Name='ApplyButton'>
+				<Property Name='Text' Value='Apply'/>
+				<Property Name='UnifiedPosition' Value='{{0.0,60},{0,42}}'/>
+				<Property Name='UnifiedSize' Value='{{0,50},{0,20}}'/>
+			</Window>
 			<Window Type='EmberLook/Button' Name='ExpandParametersButton'>
 				<Property Name='Text' Value='Attach entities'/>
-				<Property Name='UnifiedPosition' Value='{{0.0,60},{0,42}}'/>
+				<Property Name='UnifiedPosition' Value='{{0.0,120},{0,42}}'/>
 				<Property Name='UnifiedSize' Value='{{0,100},{0,20}}'/>
 			</Window>
 			<Window Type='EmberLook/StaticText' Name='ParametersDropArea'>

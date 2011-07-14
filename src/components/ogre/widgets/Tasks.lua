@@ -73,6 +73,11 @@ function Tasks.StopButtonClicked(args)
 	return true
 end
 
+function Tasks.ParameterApplyButtonClicked(args)
+    
+        return true
+end
+
 function Tasks.ExpandParametersButtonClicked(args)
 
 	Tasks.parametersDropArea:setVisible(not Tasks.parametersDropArea:isVisible())
@@ -179,6 +184,7 @@ function Tasks.buildWidget()
 	
 
 	Tasks.widget:getWindow("StopButton"):subscribeEvent("Clicked", "Tasks.StopButtonClicked")
+        Tasks.widget:getWindow("ApplyButton"):subscribeEvent("Clicked", "Tasks.ParameterApplyButtonClicked")
 	Tasks.widget:getWindow("ExpandParametersButton"):subscribeEvent("Clicked", "Tasks.ExpandParametersButtonClicked")
 
 
